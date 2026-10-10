@@ -1,0 +1,11 @@
+/target/
+*.app/
+*.dmg
+*.zip
+.DS_Store
+*.crash
+src/*_bkp*
+src/*_bak*
+src/*.bak
+macrolite-dmg-stage/
+packaging/.DS_Store
