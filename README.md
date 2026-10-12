@@ -12,17 +12,21 @@ A free, lightweight desktop macro recorder built with Rust.
 
 ## Install on macOS
 
-### Quick install (Terminal)
+### Simple installation
 
-After the Macrolite macOS ZIP is published in GitHub Releases, run:
+1. Download `Macrolite-macOS.zip` from the [latest release](https://github.com/rpradocamargo/macrolite/releases/latest).
+2. Double-click the ZIP file to extract `Macrolite.app`.
+3. Double-click `Macrolite.app` to launch Macrolite.
 
-    curl -fL https://github.com/rpradocamargo/macrolite/releases/latest/download/Macrolite-macOS.zip -o /tmp/Macrolite-macOS.zip
-    ditto -x -k /tmp/Macrolite-macOS.zip /tmp
-    ditto /tmp/Macrolite.app /Applications/Macrolite.app
+You can run Macrolite directly from Downloads or another folder. Moving it to Applications is optional.
 
-Open Macrolite from Applications. Grant Accessibility and input permissions if macOS requests them.
+macOS may ask you to grant Accessibility and input permissions. Because Macrolite is not notarized by Apple, macOS may also display a security warning.
 
-Macrolite is distributed without Apple notarization, so macOS may display a security warning.
+### Download using Terminal (optional)
+
+    curl -fL https://github.com/rpradocamargo/macrolite/releases/download/v0.1.0/Macrolite-macOS.zip -o ~/Downloads/Macrolite-macOS.zip
+
+Then double-click the downloaded ZIP and launch the app.
 
 ## Downloads
 
