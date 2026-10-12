@@ -10,6 +10,20 @@ A free, lightweight desktop macro recorder built with Rust.
 - Adjustable playback speed and repetition
 - Save and load macros as JSON
 
+## Install on macOS
+
+### Quick install (Terminal)
+
+After the Macrolite macOS ZIP is published in GitHub Releases, run:
+
+    curl -fL https://github.com/rpradocamargo/macrolite/releases/latest/download/Macrolite-macOS.zip -o /tmp/Macrolite-macOS.zip
+    ditto -x -k /tmp/Macrolite-macOS.zip /tmp
+    ditto /tmp/Macrolite.app /Applications/Macrolite.app
+
+Open Macrolite from Applications. Grant Accessibility and input permissions if macOS requests them.
+
+Macrolite is distributed without Apple notarization, so macOS may display a security warning.
+
 ## Downloads
 
 Download the latest version from our GitHub Releases page: https://github.com/rpradocamargo/macrolite/releases/latest.
