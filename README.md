@@ -55,3 +55,23 @@ Support Macrolite development through PayPal: https://www.paypal.com/donate/?cmd
 ## Project status
 
 Macrolite is an independent project. Bug reports and suggestions are welcome.
+
+<!-- HOMEBREW-INSTALL -->
+## Install with Homebrew
+
+Install Macrolite on macOS using Homebrew:
+
+```bash
+brew install --cask rpradocamargo/tap/macrolite
+```
+
+### Open-source transparency
+
+Macrolite is open source. Review the application source code, inspect its development history, or build it yourself.
+
+- [Source code](https://github.com/rpradocamargo/macrolite)
+- [Latest releases](https://github.com/rpradocamargo/macrolite/releases)
+- [Homebrew Cask definition](https://github.com/rpradocamargo/homebrew-tap/blob/main/Casks/macrolite.rb)
+
+**Security note:** Macrolite is distributed without Apple notarization. macOS may display a security warning. Reviewing the source code does not independently prove that a downloaded binary was built from that exact source.
+
